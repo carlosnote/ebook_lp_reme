@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>35歳、私は私に還る。─ 吉野優希 電子書籍【無料プレゼント】</title>
+  <meta name="description" content="転職・留学・独立・母。すべてを経験した吉野優希が「自分だけの納得解」を見つけるまでのリアルなキャリア再構築ストーリー。LINE登録で無料プレゼント。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@400;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    /* ===== RESET & BASE ===== */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { font-size: 16px; scroll-behavior: smooth; }
+    body {
+      font-family: 'Noto Serif JP', serif;
+      color: #3a3a3a;
+      line-height: 1.9;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    /* ===== TYPOGRAPHY ===== */
+    h1, h2, h3, h4, h5 {
+      font-family: 'Noto Sans JP', 'Zen Kaku Gothic New', sans-serif;
+      line-height: 1.5;
+    }
+
+    /* ===== UTILITY ===== */
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    .text-center { text-align: center; }
+
+    /* ===== FADE-IN ANIMATION ===== */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ===== SECTION 1: FIRST VIEW ===== */
+    .section-hero {
+      background: linear-gradient(160deg, #fdf6ee 0%, #f0ece4 30%, #e8eff7 70%, #dce8f5 100%);
+      padding: 60px 0 50px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .section-hero::before {
+      content: '';
+      position: absolute;
+      top: -80px;
+      right: -80px;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(circle, rgba(210,180,140,0.15) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .section-hero::after {
+      content: '';
+      position: absolute;
+      bottom: -60px;
+      left: -60px;
+      width: 250px;
+      height: 250px;
+      background: radial-gradient(circle, rgba(173,200,230,0.15) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+
+    .book-mockup {
+      width: 220px;
+      height: 310px;
+      margin: 0 auto 32px;
+      background: linear-gradient(135deg, #f5e6d3 0%, #e8d5c4 50%, #d4c4b0 100%);
+      border-radius: 4px 12px 12px 4px;
+      box-shadow: 8px 8px 30px rgba(0,0,0,0.15), -2px 0 8px rgba(0,0,0,0.05);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 18px;
+      position: relative;
+      transform: perspective(800px) rotateY(-5deg);
+      transition: transform 0.4s ease;
+    }
+    .book-mockup:hover {
+      transform: perspective(800px) rotateY(0deg);
+    }
+    .book-mockup::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 6px;
+      background: linear-gradient(to right, #c4a882, #d4b896);
+      border-radius: 4px 0 0 4px;
+    }
+    .book-title-inner {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #5a4a3a;
+      line-height: 1.7;
+      text-align: center;
+    }
+    .book-title-inner .title-main {
+      font-size: 1.05rem;
+      display: block;
+      margin-bottom: 8px;
+      color: #4a3a2a;
+    }
+    .book-title-inner .title-sub {
+      font-size: 0.7rem;
+      font-weight: 400;
+      display: block;
+      color: #7a6a5a;
+      line-height: 1.6;
+    }
+
+    .hero-catch {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #4a3a2a;
+      margin-bottom: 16px;
+      line-height: 1.7;
+    }
+    .hero-catch .highlight {
+      color: #c06030;
+      position: relative;
+    }
+    .hero-catch .highlight::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 2px;
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(to right, #c06030, #e08050);
+      border-radius: 2px;
+    }
+
+    .hero-subcopy {
+      font-size: 0.95rem;
+      color: #6a5a4a;
+      margin-bottom: 28px;
+      line-height: 2;
+    }
+
+    .hero-book-title {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #4a3a2a;
+      margin-bottom: 24px;
+      line-height: 1.8;
+      padding: 16px 20px;
+      background: rgba(255,255,255,0.5);
+      border-radius: 12px;
+      border: 1px solid rgba(200,180,160,0.3);
+    }
+
+    .hero-authority {
+      font-size: 0.82rem;
+      color: #8a7a6a;
+      margin-bottom: 32px;
+      line-height: 1.9;
+    }
+    .hero-authority strong {
+      font-size: 0.9rem;
+      color: #5a4a3a;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    /* CTA BUTTON */
+    .cta-btn {
+      display: inline-block;
+      padding: 18px 48px;
+      border-radius: 50px;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      position: relative;
+      cursor: pointer;
+      border: none;
+    }
+    .cta-btn-orange {
+      background: linear-gradient(135deg, #e87830 0%, #f09040 100%);
+      color: #fff;
+      box-shadow: 0 6px 20px rgba(232,120,48,0.35);
+    }
+    .cta-btn-orange:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(232,120,48,0.45);
+    }
+    .cta-btn-green {
+      background: linear-gradient(135deg, #06c755 0%, #09d060 100%);
+      color: #fff;
+      box-shadow: 0 6px 20px rgba(6,199,85,0.35);
+    }
+    .cta-btn-green:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(6,199,85,0.45);
+    }
+    .cta-btn-gray {
+      background: linear-gradient(135deg, #8a8a8a 0%, #9a9a9a 100%);
+      color: #fff;
+      box-shadow: 0 4px 15px rgba(100,100,100,0.25);
+      font-size: 0.9rem;
+      padding: 14px 36px;
+    }
+    .cta-btn-gray:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(100,100,100,0.35);
+    }
+    .cta-sub {
+      font-size: 0.8rem;
+      color: #9a8a7a;
+      display: block;
+      margin-top: 4px;
+    }
+
+    .hero-checks {
+      list-style: none;
+      margin-top: 20px;
+      font-size: 0.82rem;
+      color: #7a6a5a;
+    }
+    .hero-checks li {
+      margin-bottom: 4px;
+    }
+
+    /* ===== SECTION 2: EMPATHY ===== */
+    .section-empathy {
+      background: #fafafa;
+      padding: 70px 0;
+    }
+    .section-empathy h2 {
+      font-size: 1.35rem;
+      text-align: center;
+      margin-bottom: 36px;
+      color: #4a3a2a;
+    }
+
+    .worry-list {
+      list-style: none;
+      margin-bottom: 40px;
+    }
+    .worry-list li {
+      padding: 14px 16px 14px 48px;
+      margin-bottom: 8px;
+      background: #fff;
+      border-radius: 10px;
+      position: relative;
+      font-size: 0.9rem;
+      line-height: 1.7;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      transition: transform 0.2s ease;
+    }
+    .worry-list li:hover {
+      transform: translateX(4px);
+    }
+    .worry-list li::before {
+      content: '☑';
+      position: absolute;
+      left: 16px;
+      top: 14px;
+      font-size: 1.1rem;
+      color: #c06030;
+    }
+
+    .empathy-message {
+      text-align: center;
+      font-size: 1rem;
+      line-height: 2.2;
+      color: #5a4a3a;
+      padding: 30px 20px;
+      background: linear-gradient(135deg, rgba(240,230,220,0.4), rgba(220,232,245,0.4));
+      border-radius: 16px;
+    }
+    .empathy-message strong {
+      color: #c06030;
+      font-size: 1.1rem;
+    }
+
+    /* ===== SECTION 3: BOOK INTRO ===== */
+    .section-book-intro {
+      background: linear-gradient(180deg, #fdf8f2 0%, #f8f0e8 100%);
+      padding: 70px 0;
+    }
+    .book-intro-layout {
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+    }
+    .book-intro-image {
+      flex-shrink: 0;
+      width: 180px;
+    }
+    .book-intro-image .book-mockup-sm {
+      width: 180px;
+      height: 254px;
+      background: linear-gradient(135deg, #f5e6d3 0%, #e8d5c4 50%, #d4c4b0 100%);
+      border-radius: 3px 10px 10px 3px;
+      box-shadow: 6px 6px 24px rgba(0,0,0,0.12);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px 14px;
+      position: relative;
+    }
+    .book-intro-image .book-mockup-sm::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 5px;
+      background: linear-gradient(to right, #c4a882, #d4b896);
+      border-radius: 3px 0 0 3px;
+    }
+    .book-intro-image .book-mockup-sm .book-title-inner {
+      font-size: 0.65rem;
+    }
+    .book-intro-image .book-mockup-sm .book-title-inner .title-main {
+      font-size: 0.8rem;
+    }
+    .book-intro-text h2 {
+      font-size: 1.25rem;
+      color: #4a3a2a;
+      margin-bottom: 24px;
+      line-height: 1.8;
+    }
+    .book-intro-text p {
+      font-size: 0.9rem;
+      line-height: 2.1;
+      margin-bottom: 16px;
+      color: #5a4a3a;
+    }
+
+    @media (max-width: 640px) {
+      .book-intro-layout {
+        flex-direction: column;
+        align-items: center;
+      }
+      .book-intro-text h2 {
+        text-align: center;
+      }
+    }
+
+    /* ===== SECTION 4: BENEFITS ===== */
+    .section-benefits {
+      background: #fff;
+      padding: 70px 0;
+    }
+    .section-benefits h2 {
+      font-size: 1.35rem;
+      text-align: center;
+      color: #4a3a2a;
+      margin-bottom: 40px;
+    }
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    .benefit-card {
+      background: linear-gradient(135deg, #fdf8f2, #f8f4ee);
+      border-radius: 16px;
+      padding: 28px 22px;
+      text-align: center;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .benefit-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 28px rgba(0,0,0,0.1);
+    }
+    .benefit-icon {
+      font-size: 2rem;
+      margin-bottom: 12px;
+      display: block;
+    }
+    .benefit-card h3 {
+      font-size: 0.95rem;
+      color: #4a3a2a;
+      margin-bottom: 10px;
+    }
+    .benefit-card p {
+      font-size: 0.82rem;
+      color: #7a6a5a;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 640px) {
+      .benefits-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ===== SECTION 5: TABLE OF CONTENTS ===== */
+    .section-toc {
+      background: #f5f3f0;
+      padding: 70px 0;
+    }
+    .section-toc h2 {
+      font-size: 1.35rem;
+      text-align: center;
+      color: #4a3a2a;
+      margin-bottom: 36px;
+    }
+    .toc-list {
+      list-style: none;
+    }
+    .toc-item {
+      padding: 20px 24px;
+      margin-bottom: 12px;
+      background: #fff;
+      border-radius: 12px;
+      border-left: 4px solid #c06030;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+      transition: transform 0.2s ease;
+    }
+    .toc-item:hover {
+      transform: translateX(4px);
+    }
+    .toc-item h3 {
+      font-size: 0.95rem;
+      color: #4a3a2a;
+      margin-bottom: 6px;
+    }
+    .toc-item p {
+      font-size: 0.82rem;
+      color: #7a6a5a;
+      line-height: 1.7;
+    }
+
+    /* ===== SECTION 6: AUTHOR ===== */
+    .section-author {
+      background: #fff;
+      padding: 70px 0;
+    }
+    .section-author h2 {
+      font-size: 1.35rem;
+      text-align: center;
+      color: #4a3a2a;
+      margin-bottom: 36px;
+    }
+    .author-layout {
+      display: flex;
+      gap: 36px;
+      align-items: flex-start;
+    }
+    .author-photo {
+      flex-shrink: 0;
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #f0e6d8, #e0d4c8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+    .author-photo-placeholder {
+      font-size: 3.5rem;
+      color: #c4a882;
+    }
+    .author-text h3 {
+      font-size: 1.1rem;
+      color: #4a3a2a;
+      margin-bottom: 6px;
+    }
+    .author-text .author-title {
+      font-size: 0.82rem;
+      color: #9a8a7a;
+      margin-bottom: 16px;
+      font-family: 'Noto Sans JP', sans-serif;
+    }
+    .author-text p {
+      font-size: 0.85rem;
+      line-height: 2;
+      color: #5a4a3a;
+      margin-bottom: 12px;
+    }
+    .author-sns {
+      font-size: 0.82rem;
+      color: #7a6a5a;
+      margin-top: 16px;
+      line-height: 1.8;
+    }
+    .author-sns a {
+      color: #c06030;
+      text-decoration: none;
+      border-bottom: 1px dotted #c06030;
+      transition: color 0.2s;
+    }
+    .author-sns a:hover {
+      color: #e87830;
+    }
+
+    @media (max-width: 640px) {
+      .author-layout {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    }
+
+    /* ===== SECTION 7: TESTIMONIALS ===== */
+    .section-testimonials {
+      background: linear-gradient(180deg, #fdf8f2 0%, #f8f0e8 100%);
+      padding: 70px 0;
+    }
+    .section-testimonials h2 {
+      font-size: 1.35rem;
+      text-align: center;
+      color: #4a3a2a;
+      margin-bottom: 36px;
+    }
+    .testimonial-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 28px 24px;
+      margin-bottom: 20px;
+      position: relative;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+    }
+    .testimonial-card::before {
+      content: '"';
+      position: absolute;
+      top: 12px;
+      left: 18px;
+      font-size: 3rem;
+      color: rgba(192,96,48,0.15);
+      font-family: Georgia, serif;
+      line-height: 1;
+    }
+    .testimonial-card p {
+      font-size: 0.9rem;
+      line-height: 1.9;
+      color: #5a4a3a;
+      padding-left: 8px;
+      margin-bottom: 12px;
+    }
+    .testimonial-attr {
+      font-size: 0.78rem;
+      color: #9a8a7a;
+      text-align: right;
+      font-family: 'Noto Sans JP', sans-serif;
+    }
+    .testimonial-avatar {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .testimonial-avatar .avatar-circle {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #e8d8c8, #d8c8b8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      color: #a08870;
+    }
+
+    /* ===== SECTION 8: FINAL MESSAGE ===== */
+    .section-final-message {
+      background: #fff;
+      padding: 80px 0;
+      text-align: center;
+    }
+    .section-final-message h2 {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 1.4rem;
+      color: #4a3a2a;
+      margin-bottom: 32px;
+    }
+    .section-final-message .message-body {
+      font-size: 1rem;
+      line-height: 2.4;
+      color: #5a4a3a;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .section-final-message .message-author {
+      margin-top: 36px;
+      font-family: 'Noto Serif JP', serif;
+      font-size: 1.05rem;
+      color: #8a7a6a;
+    }
+
+    /* ===== SECTION 9: REGISTRATION ===== */
+    .section-registration {
+      background: linear-gradient(135deg, #fef0e6 0%, #fce8e0 50%, #fae0d8 100%);
+      padding: 70px 0;
+      text-align: center;
+    }
+    .section-registration h2 {
+      font-size: 1.4rem;
+      color: #4a3a2a;
+      margin-bottom: 16px;
+    }
+    .section-registration .reg-desc {
+      font-size: 0.9rem;
+      color: #6a5a4a;
+      margin-bottom: 32px;
+      line-height: 1.9;
+    }
+    .reg-buttons {
+      margin-bottom: 24px;
+    }
+    .reg-buttons .cta-btn {
+      display: block;
+      max-width: 380px;
+      margin: 0 auto 16px;
+      text-align: center;
+    }
+    .reg-divider {
+      font-size: 0.82rem;
+      color: #9a8a7a;
+      margin: 20px 0;
+    }
+    .reg-checks {
+      list-style: none;
+      font-size: 0.82rem;
+      color: #7a6a5a;
+    }
+    .reg-checks li {
+      margin-bottom: 4px;
+    }
+
+    /* Email form */
+    .email-form {
+      display: none;
+      max-width: 380px;
+      margin: 24px auto 0;
+      text-align: left;
+    }
+    .email-form.show {
+      display: block;
+    }
+    .email-form label {
+      display: block;
+      font-size: 0.82rem;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #6a5a4a;
+      margin-bottom: 6px;
+    }
+    .email-form input {
+      width: 100%;
+      padding: 14px 16px;
+      border: 1px solid #d4c4b0;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      font-family: 'Noto Sans JP', sans-serif;
+      margin-bottom: 12px;
+      transition: border-color 0.3s;
+      outline: none;
+    }
+    .email-form input:focus {
+      border-color: #c06030;
+    }
+    .email-form .submit-btn {
+      width: 100%;
+      padding: 14px;
+      background: linear-gradient(135deg, #e87830, #f09040);
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .email-form .submit-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(232,120,48,0.35);
+    }
+
+    /* ===== SECTION 10: FAQ ===== */
+    .section-faq {
+      background: #fff;
+      padding: 70px 0;
+    }
+    .section-faq h2 {
+      font-size: 1.35rem;
+      text-align: center;
+      color: #4a3a2a;
+      margin-bottom: 36px;
+    }
+    .faq-item {
+      border: 1px solid #eae4de;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      overflow: hidden;
+      transition: box-shadow 0.3s ease;
+    }
+    .faq-item:hover {
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+    .faq-question {
+      padding: 18px 48px 18px 20px;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #4a3a2a;
+      cursor: pointer;
+      position: relative;
+      background: #fafafa;
+      user-select: none;
+    }
+    .faq-question::after {
+      content: '+';
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.4rem;
+      color: #c06030;
+      transition: transform 0.3s ease;
+    }
+    .faq-item.open .faq-question::after {
+      content: '−';
+    }
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.3s ease;
+    }
+    .faq-item.open .faq-answer {
+      max-height: 300px;
+      padding: 0 20px 18px;
+    }
+    .faq-answer p {
+      font-size: 0.85rem;
+      color: #6a5a4a;
+      line-height: 1.8;
+      padding-top: 4px;
+    }
+
+    .privacy-link {
+      text-align: center;
+      margin-top: 32px;
+      font-size: 0.82rem;
+    }
+    .privacy-link a {
+      color: #9a8a7a;
+      text-decoration: underline;
+    }
+
+    /* ===== FOOTER ===== */
+    .site-footer {
+      background: #f5f3f0;
+      padding: 28px 0;
+      text-align: center;
+      font-size: 0.75rem;
+      color: #aaa;
+      font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    /* ===== FLOATING CTA (mobile) ===== */
+    .floating-cta {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(10px);
+      padding: 12px 20px;
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+      z-index: 100;
+      text-align: center;
+    }
+    .floating-cta .cta-btn {
+      padding: 14px 36px;
+      font-size: 0.9rem;
+      width: 100%;
+      max-width: 340px;
+    }
+    .floating-cta.show {
+      display: block;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 640px) {
+      .hero-catch {
+        font-size: 1.35rem;
+      }
+      .hero-book-title {
+        font-size: 1rem;
+      }
+      .section-hero,
+      .section-empathy,
+      .section-book-intro,
+      .section-benefits,
+      .section-toc,
+      .section-author,
+      .section-testimonials,
+      .section-final-message,
+      .section-registration,
+      .section-faq {
+        padding: 50px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== SECTION 1: FIRST VIEW ===== -->
+  <section class="section-hero">
+    <div class="container">
+      <div class="fade-in">
+        <!-- Book Mockup -->
+        <div class="book-mockup">
+          <div class="book-title-inner">
+            <span class="title-main">35歳、私は私に還る。</span>
+            <span class="title-sub">安定を手放し、自分だけの<br>「納得解」を見つけた<br>私のキャリア再構築ストーリー</span>
+          </div>
+        </div>
+
+        <!-- Catchcopy -->
+        <h1 class="hero-catch">
+          <span class="highlight">「このままでいいのかな…」</span><br>
+          そんなモヤモヤを抱える<br>あなたへ。
+        </h1>
+
+        <!-- Subcopy -->
+        <p class="hero-subcopy">
+          転職・留学・独立・母。<br>
+          すべてを経験した私が、<br>
+          「自分だけの納得解」を見つけるまでの<br>
+          リアルなキャリア再構築ストーリー。
+        </p>
+
+        <!-- Book Title -->
+        <div class="hero-book-title">
+          『35歳、私は私に還る。<br>
+          ─ 安定を手放し、自分だけの「納得解」を見つけた<br>
+          私のキャリア再構築ストーリー』
+        </div>
+
+        <!-- Authority -->
+        <div class="hero-authority">
+          <strong>著者：吉野 優希</strong>
+          ユニ・チャーム、Ankerでマーケティング実務を経験。<br>
+          29歳でカナダ留学、35歳で独立起業。<br>
+          一児の母として、キャリアとライフを両立中。
+        </div>
+
+        <!-- CTA -->
+        <a href="#registration" class="cta-btn cta-btn-orange">
+          今すぐ無料で読む（LINE登録）
+          <span class="cta-sub">↓ 登録後すぐにPDFをお届け</span>
+        </a>
+
+        <!-- Checks -->
+        <ul class="hero-checks">
+          <li>✓ 完全無料（LINE登録のみ）</li>
+          <li>✓ 登録後、即座にPDFをプレゼント</li>
+          <li>✓ 約2万字のボリューム</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 2: EMPATHY ===== -->
+  <section class="section-empathy">
+    <div class="container">
+      <div class="fade-in">
+        <h2>こんな「モヤモヤ」、<br>抱えていませんか？</h2>
+
+        <ul class="worry-list">
+          <li>今の仕事に大きな不満はないけれど、「このままでいいのかな…」と漠然とした不安がある</li>
+          <li>30代、40代を目前に、キャリアの「次の一手」が見えなくて焦っている</li>
+          <li>結婚、出産、育児…ライフイベントとキャリアの両立に悩んでいる</li>
+          <li>「やりたいこと」が分からず、自分の軸を見失っている</li>
+          <li>身近にロールモデルがいなくて、未来が描けない</li>
+          <li>転職、独立、留学…挑戦したいけれど、一歩が踏み出せない</li>
+          <li>「マミートラック」に乗りたくないけれど、どうすればいいか分からない</li>
+          <li>仕事も家庭も、どちらも中途半端に感じて自信を失いかけている</li>
+        </ul>
+
+        <div class="empathy-message">
+          大丈夫。あなただけじゃありません。<br>
+          私も、同じ悩みを抱えていました。<br><br>
+          でも、<strong>「自分の軸」</strong>を見つけたことで、<br>
+          すべてが変わりました。<br><br>
+          この本には、その「答え」が詰まっています。
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 3: BOOK INTRO ===== -->
+  <section class="section-book-intro">
+    <div class="container">
+      <div class="fade-in">
+        <div class="book-intro-layout">
+          <div class="book-intro-image">
+            <div class="book-mockup-sm">
+              <div class="book-title-inner">
+                <span class="title-main">35歳、<br>私は私に還る。</span>
+                <span class="title-sub">吉野 優希</span>
+              </div>
+            </div>
+          </div>
+          <div class="book-intro-text">
+            <h2>この本は、「キャリア迷子」だった私が、<br>自分だけの「納得解」を見つけるまでの<br>リアルな記録です。</h2>
+
+            <p>ユニ・チャームで営業とマーケティングを経験し、順風満帆に見えたキャリア。</p>
+
+            <p>でも、29歳のとき、私は安定を手放しました。<br>英語がほとんど話せないまま、カナダへ単身留学。</p>
+
+            <p>帰国後、Ankerでマーケティング部門を0から立ち上げ、本部長に。</p>
+
+            <p>そして35歳、独立起業。<br>一児の母として、キャリアとライフを両立する日々。</p>
+
+            <p>この本には、私が「決断」するたびに感じた葛藤、失敗、そして学びのすべてが詰まっています。</p>
+
+            <p>完璧なカリスマではなく、<br>「少し先を歩く先輩」として、<br>あなたに寄り添える一冊です。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 4: BENEFITS ===== -->
+  <section class="section-benefits">
+    <div class="container">
+      <div class="fade-in">
+        <h2>この本を読むと、<br>こんな変化が起こります</h2>
+
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <span class="benefit-icon">🌟</span>
+            <h3>「自分の軸」が見つかる</h3>
+            <p>漠然とした不安が消え、自分が本当に大切にしたい価値観が明確になります。</p>
+          </div>
+          <div class="benefit-card">
+            <span class="benefit-icon">🔥</span>
+            <h3>「決断する勇気」が<br>湧いてくる</h3>
+            <p>転職、独立、留学…挑戦への一歩を踏み出す勇気が得られます。</p>
+          </div>
+          <div class="benefit-card">
+            <span class="benefit-icon">💡</span>
+            <h3>「失敗を恐れない思考法」が身につく</h3>
+            <p>失敗も含めて、すべてを「学び」に変える思考法が分かります。</p>
+          </div>
+          <div class="benefit-card">
+            <span class="benefit-icon">🌈</span>
+            <h3>「キャリアとライフの両立」のヒントが得られる</h3>
+            <p>仕事と家庭、どちらも諦めない生き方のヒントが詰まっています。</p>
+          </div>
+          <div class="benefit-card">
+            <span class="benefit-icon">🤝</span>
+            <h3>「等身大のロールモデル」に出会える</h3>
+            <p>完璧ではないけれど、一歩ずつ前に進む姿に、共感と勇気をもらえます。</p>
+          </div>
+          <div class="benefit-card">
+            <span class="benefit-icon">👣</span>
+            <h3>「次の一歩」が<br>明確になる</h3>
+            <p>読み終えたとき、あなたが今日からできる「Baby Step」が見えてきます。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 5: TABLE OF CONTENTS ===== -->
+  <section class="section-toc">
+    <div class="container">
+      <div class="fade-in">
+        <h2>本書の目次</h2>
+
+        <ul class="toc-list">
+          <li class="toc-item">
+            <h3>序章｜なぜ、私はこの本を書いたのか</h3>
+            <p>あなたに伝えたい、たった一つのメッセージ。</p>
+          </li>
+          <li class="toc-item">
+            <h3>第1章｜第一の転機：安定からの離陸（〜29歳 ユニ・チャーム時代）</h3>
+            <p>新卒で入社した大企業での営業とマーケティング。順風満帆に見えたキャリアの裏で、私が感じていた「違和感」とは？</p>
+          </li>
+          <li class="toc-item">
+            <h3>第2章｜第二の転機：未知への挑戦（29歳〜 カナダ留学時代）</h3>
+            <p>英語がほとんど話せないまま、29歳で単身カナダへ。「安定」を手放す決断をした理由と、そこで得た「宝物」。</p>
+          </li>
+          <li class="toc-item">
+            <h3>第3章｜第三の転機：キャリアの再構築（〜35歳 Anker時代）</h3>
+            <p>帰国後、Ankerでマーケティング部門を0から立ち上げ。初めてのマネージャー経験で学んだ、リーダーシップの本質。</p>
+          </li>
+          <li class="toc-item">
+            <h3>第4章｜第四の転機：自分との一致（35歳〜 独立・起業）</h3>
+            <p>会社員生活に終止符を打ち、独立を決めた35歳。「母」であることと「経営者」であることの両立、その葛藤と喜び。</p>
+          </li>
+          <li class="toc-item">
+            <h3>終章｜これから、あなただけの物語を始めよう</h3>
+            <p>読み終えたあなたに贈る、最後のメッセージ。今日からできる「Baby Step」とは？</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 6: AUTHOR ===== -->
+  <section class="section-author">
+    <div class="container">
+      <div class="fade-in">
+        <h2>著者プロフィール</h2>
+
+        <div class="author-layout">
+          <div class="author-photo">
+            <span class="author-photo-placeholder">👩</span>
+          </div>
+          <div class="author-text">
+            <h3>吉野 優希（よしの ゆうき）</h3>
+            <p class="author-title">マーケティングコンサルタント / 国際コーチ連盟認定コーチ（ACC）</p>
+
+            <p>新卒でユニ・チャーム株式会社に入社。営業職を経て、ベビーおむつ「ムーニーマン」のマーケティングを担当。世界初のポケット付きおむつを開発し、発売3ヶ月でシェアNo.1、Good Design賞を受賞。</p>
+
+            <p>29歳で会社を退職し、英語力ゼロからカナダへ単身留学。現地のマーケティング企業で就労経験を積む。</p>
+
+            <p>帰国後、Anker Japan株式会社に入社。マーケティング部門の立ち上げを担当し、マネージャー、本部長を歴任。</p>
+
+            <p>2023年、35歳で独立起業。マーケティングコンサルティングとコーチング事業を展開。一児の母として、キャリアとライフを両立中。</p>
+
+            <div class="author-sns">
+              <strong>SNS</strong><br>
+              note: <a href="https://note.com/yukiyoshino26" target="_blank" rel="noopener">note.com/yukiyoshino26</a><br>
+              Instagram: <a href="https://instagram.com/yuki.yoshino.coach" target="_blank" rel="noopener">@yuki.yoshino.coach</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 7: TESTIMONIALS ===== -->
+  <section class="section-testimonials">
+    <div class="container">
+      <div class="fade-in">
+        <h2>先行読者の声</h2>
+
+        <div class="testimonial-card">
+          <p>まるで私のことが書かれているようで、涙が止まりませんでした。「このままでいいのかな」という不安は、私だけじゃなかったんだと、心が軽くなりました。</p>
+          <div class="testimonial-attr">
+            <span class="testimonial-avatar">
+              <span class="avatar-circle">👩</span>
+              30代女性、メーカー勤務
+            </span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>吉野さんの等身大のストーリーに、何度も勇気をもらいました。完璧じゃなくていい、失敗してもいい。そう思えたことで、私も一歩踏み出せそうです。</p>
+          <div class="testimonial-attr">
+            <span class="testimonial-avatar">
+              <span class="avatar-circle">👩</span>
+              40代女性、2児の母
+            </span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>キャリアの「軸」を見つけるヒントが、たくさん詰まっていました。読み終えた後、自分が本当にやりたいことが少しずつ見えてきた気がします。</p>
+          <div class="testimonial-attr">
+            <span class="testimonial-avatar">
+              <span class="avatar-circle">👩</span>
+              20代女性、IT企業勤務
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 8: FINAL MESSAGE ===== -->
+  <section class="section-final-message">
+    <div class="container">
+      <div class="fade-in">
+        <h2>最後に、あなたへ。</h2>
+
+        <div class="message-body">
+          もし、あなたが今、<br>
+          「このままでいいのかな…」と<br>
+          少しでも感じているなら。<br><br>
+
+          この本が、あなたの「最初の一歩」になれたら、<br>
+          こんなに嬉しいことはありません。<br><br>
+
+          キャリアの正解は、誰かが決めるものではありません。<br>
+          あなた自身が決めるものです。<br><br>
+
+          この本を通じて、<br>
+          あなたが「自分だけの納得解」を見つける<br>
+          きっかけになれますように。
+        </div>
+
+        <p class="message-author">吉野 優希</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 9: REGISTRATION ===== -->
+  <section class="section-registration" id="registration">
+    <div class="container">
+      <div class="fade-in">
+        <h2>今すぐ無料で読む</h2>
+        <p class="reg-desc">
+          下のボタンをクリックして、公式LINEに登録してください。<br>
+          登録後、すぐに電子書籍（PDF）をプレゼントいたします。
+        </p>
+
+        <div class="reg-buttons">
+          <a href="#" class="cta-btn cta-btn-green">
+            公式LINEに登録して今すぐ読む
+          </a>
+
+          <p class="reg-divider">または</p>
+
+          <button class="cta-btn cta-btn-gray" id="emailToggle" onclick="toggleEmailForm()">
+            メールアドレスで登録する
+          </button>
+        </div>
+
+        <!-- Email Form -->
+        <form class="email-form" id="emailForm">
+          <label for="email">メールアドレス（必須）</label>
+          <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+
+          <label for="name">お名前（任意）</label>
+          <input type="text" id="name" name="name" placeholder="山田 花子">
+
+          <button type="submit" class="submit-btn">無料で電子書籍を受け取る</button>
+        </form>
+
+        <ul class="reg-checks">
+          <li>✓ 完全無料（LINE登録のみ）</li>
+          <li>✓ 登録後、即座にPDFをお届け</li>
+          <li>✓ いつでも配信停止可能</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 10: FAQ ===== -->
+  <section class="section-faq">
+    <div class="container">
+      <div class="fade-in">
+        <h2>よくあるご質問</h2>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">Q. 本当に無料ですか？</div>
+          <div class="faq-answer">
+            <p>はい、完全無料です。LINE登録またはメールアドレス登録のみで、電子書籍（PDF）をプレゼントいたします。</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">Q. 登録後、何か売り込まれませんか？</div>
+          <div class="faq-answer">
+            <p>電子書籍をお読みいただいた後、コーチング講座のご案内をお送りすることがあります。ただし、興味がない場合は、いつでも配信停止が可能です。</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">Q. 個人情報は安全ですか？</div>
+          <div class="faq-answer">
+            <p>ご登録いただいた個人情報は、プライバシーポリシーに基づき厳重に管理いたします。第三者に提供することはございません。</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">Q. スマホでも読めますか？</div>
+          <div class="faq-answer">
+            <p>はい、PDF形式でお届けしますので、スマホ、タブレット、PCのいずれでもお読みいただけます。</p>
+          </div>
+        </div>
+
+        <div class="privacy-link">
+          <a href="#">プライバシーポリシーはこちら</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 吉野 優希. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ===== FLOATING CTA ===== -->
+  <div class="floating-cta" id="floatingCta">
+    <a href="#registration" class="cta-btn cta-btn-orange">今すぐ無料で読む</a>
+  </div>
+
+  <script>
+    // ===== Scroll Fade-in Animation =====
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // ===== FAQ Accordion =====
+    function toggleFaq(el) {
+      const item = el.parentElement;
+      const isOpen = item.classList.contains('open');
+      // Close all
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      // Open clicked if it was closed
+      if (!isOpen) {
+        item.classList.add('open');
+      }
+    }
+
+    // ===== Email Form Toggle =====
+    function toggleEmailForm() {
+      const form = document.getElementById('emailForm');
+      form.classList.toggle('show');
+    }
+
+    // ===== Floating CTA (show after scrolling past hero) =====
+    const hero = document.querySelector('.section-hero');
+    const floatingCta = document.getElementById('floatingCta');
+    const regSection = document.getElementById('registration');
+
+    window.addEventListener('scroll', () => {
+      const heroBottom = hero.getBoundingClientRect().bottom;
+      const regTop = regSection.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+
+      if (heroBottom < 0 && regTop > windowHeight) {
+        floatingCta.classList.add('show');
+      } else {
+        floatingCta.classList.remove('show');
+      }
+    });
+  </script>
+
+</body>
+</html>
